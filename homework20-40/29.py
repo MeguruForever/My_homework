@@ -11,6 +11,7 @@ for x in range (501):
 res=0
 for x in list1:
     print(list1[res],list1[res+1],list1[res+2],list1[res+3],list1[res+4]) 
-    res+=5
+    
     if list1[res+4]==499:
         break
+    res+=5

@@ -1,5 +1,4 @@
 import random
-from this import d
 a=random.randint(1,50)
 list1=random.sample([i for i in range (100)],a)
 print (list1)
