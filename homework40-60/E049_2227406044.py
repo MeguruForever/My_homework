@@ -19,21 +19,21 @@ def assignment49(lstPoint):
     b=(((lstPoint[0][0]-lstPoint[2][0])**2)+((lstPoint[0][1]-lstPoint[2][1])**2))**(1/2)
     c=(((lstPoint[1][0]-lstPoint[2][0])**2)+((lstPoint[1][1]-lstPoint[2][1])**2))**(1/2)
     if a+b<=c:
-        return "不能构成三角形"
+        return None
     elif a+c<=b:
-        return "不能构成三角形"
+        return None
     elif b+c<=a:
-        return "不能构成三角形"
+        return None
     if a==b and b==c :
-        return "等边三角形"
+        return 1
     elif a**2+b**2==c**2:
-        return "直角三角形"
+        return 2
     elif a**2+c**2==b**2:
-        return "直角三角形"
+        return 2
     elif b**2+c**2==a**2:
-        return "直角三角形"
+        return 2
     else:
-        return "其他三角形"
+        return 3
    #占位语句，添加代码后删除pass
     
 if __name__ == '__main__':

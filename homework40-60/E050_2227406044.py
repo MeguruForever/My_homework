@@ -20,9 +20,9 @@ def assignment50(center,r,point):
 
     #step2: 比较d与r之间的关系，并返回比较结果。注意：d和r的比较方式
     if d>r:
-        return "园外"
+        return 0
     elif d>=r:
-        return "园内"
+        return 1
    #占位语句，添加代码后删除pass
 
     
