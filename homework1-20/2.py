@@ -1,7 +1,7 @@
 from calendar import c
 
 
-nums=list(map(int,input("输入四个整数：")))
+nums=list(map(int,input("输入四个整数：").split( )))
 a=nums[0]#取数
 b=nums[1]
 c=nums[2]
@@ -13,6 +13,6 @@ if c>=d:
    g=c
 else:g=d
 if f>=g:
-    print(f)
+   print(f)
 else:print (g)
 

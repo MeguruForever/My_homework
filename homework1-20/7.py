@@ -1,4 +1,3 @@
-from lib2to3.pgen2.token import PERCENT
 import random
 import math
 r=random.uniform(5,20)
